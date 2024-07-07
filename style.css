@@ -1,0 +1,145 @@
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    margin-top: 50px;
+}
+
+li {
+    padding-right: 25px;
+}
+
+
+/* index.html */
+.index_main {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.title {
+    margin-top: 80px;
+}
+
+.title>p {
+    padding-left: 40px;
+}
+
+/* profile.html */
+.profile_main {
+    font-weight: bold;
+    justify-content: center;
+}
+
+.profile_title {
+    background-color: darkgrey;
+    padding: 6px;
+    margin-bottom: 150px;
+}
+
+.profile_content {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/* skill.html */
+.skill_main {
+    font-weight: bold;
+    justify-content: center;
+}
+
+.skill_title {
+    background-color: darkgrey;
+    padding: 6px;
+    margin-bottom: 150px;
+}
+
+.skill_list {
+    display: flex;
+    justify-content: center;
+}
+
+.skill_list>li {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.skill_list>li>p {
+    padding: 30px 15px 80px;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.skill_list>li>h3 {
+    text-align: center;
+}
+
+/* work.html */
+
+.skill_main {
+    font-weight: bold;
+    justify-content: center;
+}
+
+.work_title {
+    background-color: darkgrey;
+    padding: 6px;
+    margin-bottom: 150px;
+}
+
+.work_main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 400px;
+}
+
+#work_img {
+    padding: 20px 20px;
+}
+
+#work_img>p {
+    text-align: center;
+}
+
+/* contact_html */
+.contact_title {
+    background-color: darkgrey;
+    padding: 6px;
+    margin-bottom: 50px;
+}
+
+.access {
+    width: 500px;
+    margin: 0 auto;
+    font-weight: bold;
+
+}
+
+button {
+    display: block;
+    margin: 35px auto;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: dimgray;
+    border: 0px;
+    width: 80px;
+    height: 40px;
+}
+
+#access_content>p {
+    margin: 35px 0 3px;
+}
